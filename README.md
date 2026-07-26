@@ -1,84 +1,112 @@
-3D GitHub Repository Visualizer Implementation Plan
-A high-performance interactive 3D web application to visualize any public GitHub repository as an interactive 3D scene (Code City & Branch Graph) powered by Three.js and the GitHub REST API.
+<div align="center">
 
-1. Overview & Architecture
-The application will transform GitHub repository file trees, branches, and commit histories into dynamic 3D structures:
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:c1440e,100:ff9248&height=220&section=header&text=Omair%20Qasim&fontSize=52&fontColor=fff2e6&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Web%20Developer%20%7C%20مطوّر%20ويب%20متكامل&descAlignY=58&descSize=18" width="100%"/>
 
-Files & Folders: Visualized as 3D extruded blocks/buildings (height scaled to file size/lines, position structured by folder hierarchy).
-Branches: Connecting 3D paths / glowing splines connecting branch roots and commit nodes.
-Commits: Glowing, animated 3D spheres positioned along branch paths with pulse animations.
-Activity & Heatmap Colors:
-🟢 Neon Green: Active / frequently modified files
-🔵 Cyan Blue: Stable / foundational files
-🔴 Hot Crimson: Recently modified / high activity files
-Modes: Code City layout, 3D Force-Graph/Tree view, and Commit Timeline view.
-Bonus Capabilities: 3D scene export as .GLTF, deep-linking via query parameters (?repo=owner/repo), optional GitHub Personal Access Token support to bypass public API rate limits, and fallback mock repository generator for offline testing or instant preview.
-2. Directory & File Structure
-Project location: C:\Users\wisal\.gemini\antigravity\scratch\repo-visualizer-3d
+<br/>
 
+<img src="https://readme-typing-svg.demolab.com?font=Cairo&size=22&pause=1000&color=FF6B35&center=true&vCenter=true&width=650&lines=Frontend+%2B+Backend+Developer;مطوّر+واجهات+وخوادم؛+HTML+%7C+CSS+%7C+JS+%7C+React+%7C+Node.js;أبني+مواقع+وتطبيقات+ويب+من+الصفر+حتى+النشر" alt="Typing SVG" />
 
-repo-visualizer-3d/
-├── index.html                  # Main HTML shell with sleek HUD overlay & canvas wrapper
-├── package.json                # Project dependencies (three, three-stdlib, lucide, vite)
-├── vite.config.js              # Vite configuration
-├── public/
-│   └── favicon.svg             # App favicon
-└── src/
-    ├── main.js                 # Application entry point & controller initialization
-    ├── style.css               # Design system, glassmorphism UI, neon cyberpunk dark/light themes
-    ├── services/
-    │   └── github.js           # GitHub API client (REST API + Rate limit handling + Mock repo fallback)
-    ├── scene/
-    │   ├── engine.js           # Three.js scene, renderer, camera, lighting, environment, animations
-    │   ├── cityLayout.js       # Procedural 3D Code City layout generator (buildings & districts)
-    │   ├── graphLayout.js      # 3D Branch & Commit graph renderer (splines & glowing spheres)
-    │   ├── interaction.js      # Raycasting, hover tooltips, click selection, camera target transitions
-    │   └── exporter.js         # GLTFExporter integration for downloading 3D scene files
-    └── ui/
-        ├── hud.js              # Top bar, preset selector, search input, stats overlay, legend
-        ├── inspector.js        # File detail sidebar & commit inspector
-        └── toast.js            # Toast notifications for export and sharing links
-3. Implementation Steps
-Phase 1: Project Setup & Core Environment
-Initialize Vite + Vanilla JS application in C:\Users\wisal\.gemini\antigravity\scratch\repo-visualizer-3d.
-Install three, three-stdlib (for OrbitControls and GLTFExporter), and lucide icons.
-Setup CSS design system with CSS custom properties (Cyberpunk dark background #0b0f19, neon green #00ff9d, cyan #00f0ff, crimson #ff0055, glassmorphic HUD overlays).
-Phase 2: GitHub API Service & Data Processing
-Build github.js to fetch:
-Repository metadata (GET /repos/{owner}/{repo}).
-Recursive Git file tree (GET /repos/{owner}/{repo}/git/trees/{branch}?recursive=1).
-Branch list (GET /repos/{owner}/{repo}/branches).
-Recent commit history (GET /repos/{owner}/{repo}/commits).
-Implement rate-limit indicator & local storage GitHub Token option.
-Include a built-in mock repository generator (e.g. standard project structures) for immediate instant loading and rate-limit resilience.
-Phase 3: 3D Scene Engine & Layout Algorithms
-Base Engine (engine.js):
-Three.js WebGLRenderer with anti-aliasing, shadow mapping, and bloom-ready lighting setup.
-Interactive OrbitControls with smooth damping and camera movement tweening.
-Futuristic particle environment grid and ambient lighting.
-Code City Layout (cityLayout.js):
-Converts folder trees into spatial bounding areas (districts) and files into 3D box meshes.
-Height determined by file size; color mapped to recency/type; emissive neon edge highlights.
-Branch & Commit Graph Layout (graphLayout.js):
-Draws 3D CatmullRom splines for git branches.
-Places glowing SphereGeometry nodes with pulse animation for commit history points.
-Phase 4: Interactions, Tooltips & Inspector
-Raycaster on canvas to detect hovered/clicked 3D buildings or commit spheres.
-Hover tooltip display: File path, file size (KB), language extension, last commit date/author.
-Click to inspect: Smoothly animate camera target to the building/node and open the right Inspector sidebar with full details and direct GitHub link.
-Phase 5: Features & UI Polish (Bonus Features)
-Preset Repo Quick Selectors (facebook/react, vuejs/core, mrdoob/three.js, torvalds/linux).
-GLTF Exporter: Download current 3D visual scene as .gltf file for Blender / 3D software.
-Share Link: Encodes repo name in URL #repo=owner/repo or query string for direct sharing.
-Theme Switcher: Dark Neon mode (default) and Light Mode.
-Responsive legend HUD explaining shapes, colors, and layout metrics.
-4. Verification Plan
-Automated & Build Verification
-Run npm run build to verify clean compilation with no bundle or syntax errors.
-Run npm run dev to start dev server locally and verify responsiveness.
-Functional Verification
-Repository Loading: Input facebook/react or custom repo -> verify API call, tree parse, and 3D rendering.
-3D Navigation: Pan, zoom, rotate using OrbitControls; verify performance at 60 FPS.
-Hover & Click: Hover over buildings -> check tooltip; Click building -> check smooth camera transition and inspector panel.
-GLTF Export: Click "Export .GLTF" -> verify .gltf file download.
-Share Link: Click "Share" -> copy link and load in new tab -> verify auto-loading of shared repository.
+<br/><br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=vercel&logoColor=black)](#)
+
+</div>
+
+---
+
+### 🧭 نبذة عني | About Me
+
+```
+🔭 أعمل حاليًا على مشاريع ويب متكاملة (Frontend + Backend)
+🔭 Currently building full-stack web projects
+
+🌱 أتعلّم حاليًا: تطوير الـ Backend وربطه بقواعد البيانات
+🌱 Currently learning: Backend development & database integration
+
+💬 اسألني عن: HTML, CSS, JavaScript, React, Node.js
+💬 Ask me about: HTML, CSS, JavaScript, React, Node.js
+
+⚡ حقيقة ممتعة: أحب تحويل الأفكار لواجهات تفاعلية حية
+⚡ Fun fact: I love turning ideas into living, interactive interfaces
+```
+
+---
+
+### 🛠️ التقنيات والأدوات | Tech Stack
+
+<div align="center">
+
+**Frontend**
+<br/>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap" />
+
+<br/><br/>
+
+**Backend & Database**
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,php" />
+
+<br/><br/>
+
+**Tools & Platforms**
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux" />
+
+</div>
+
+---
+
+### 📊 إحصائيات جيت هب | GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=omairggs-bit&show_icons=true&hide_border=true&count_private=true&bg_color=1a0e0a&title_color=ff6b35&icon_color=ff9248&text_color=ffd9b3" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omairggs-bit&layout=compact&hide_border=true&bg_color=1a0e0a&title_color=ff6b35&text_color=ffd9b3" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=omairggs-bit&hide_border=true&background=1a0e0a&border=ff6b35&ring=ff6b35&fire=ff4d4d&currStreakLabel=ffd9b3&sideLabels=ffd9b3&currStreakNum=ff9248&sideNums=ff9248&dates=c97a55" />
+
+</div>
+
+---
+
+### 🎯 نظرة على مشاريعي | Featured Projects
+
+<div align="center">
+
+| المشروع | الوصف | التقنيات |
+|---|---|---|
+| 🚀 **اسم المشروع الأول** | وصف مختصر للمشروع وما يقدمه | `React` `Node.js` |
+| 🎨 **اسم المشروع الثاني** | وصف مختصر للمشروع وما يقدمه | `HTML` `CSS` `JS` |
+| 🛒 **اسم المشروع الثالث** | وصف مختصر للمشروع وما يقدمه | `Full-Stack` |
+
+</div>
+
+> 💡 عدّل الجدول أعلاه بروابط مشاريعك الحقيقية — كل ما تحطه هنا يظهر بشكل احترافي لأي زائر لملفك.
+
+---
+
+<div align="center">
+
+### 📈 نشاطي على جيت هب | Contribution Activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=omairggs-bit&hide_border=true&bg_color=1a0e0a&color=ffd9b3&line=ff6b35&point=ff4d4d&area_color=ff6b35&title_color=ff9248" width="100%"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=omairggs-bit&style=for-the-badge&color=ff6b35&label=زوار+الملف+%7C+Profile+Views" />
+
+<br/><br/>
+
+**"الشغف يبدأ بفكرة، وينتهي بسطر كود يشتغل 💻✨"**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9248,50:c1440e,100:2b0a0a&height=100&section=footer" width="100%"/>
+
+</div>
