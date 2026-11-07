@@ -1,49 +1,44 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d33,100:c1440e&height=180&section=header&text=Omair%20Qasim&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Front-End%20Developer%20%C2%B7%20Logistics%20%26%20E-commerce%20Web&descAlignY=58&descSize=16" width="100%"/>
+<img src="./assets/banner.svg" width="100%" alt="Omair Qasim — Front-End Developer"/>
 
-**مطوّر واجهات ويب، متخصص في مواقع الشحن والتجارة الإلكترونية للسوق السعودي**
-
-[![Email](https://img.shields.io/badge/omairggs@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:omairggs@gmail.com)
-![Location](https://img.shields.io/badge/Saudi%20Arabia-0b1d33?style=flat-square&logo=googlemaps&logoColor=white)
-![Languages](https://img.shields.io/badge/AR%20%C2%B7%20EN-c1440e?style=flat-square)
+[![Email](mailto:omairggs@gmail.com)](mailto:omairggs@gmail.com) · **omairggs@gmail.com**
 
 </div>
 
 ## نبذة | About
 
-أبني مواقع ويب سريعة ومتعددة اللغات من الصفر، بدون إطارات ثقيلة: حاسبات أسعار شحن، صفحات تتبّع، وأدوات تفاعلية تشتغل كاملة في المتصفح.
+**عربي** — مطوّر واجهات ويب أبني مواقع وتجارة إلكترونية للسوق السعودي: واجهات نظيفة مصمّمة في **Figma**، أتمتة مهام سير العمل، وأدوات ويب تفاعلية (حاسبات، لوحات، منشئات أوامر للذكاء الاصطناعي). أعمل بـ HTML وCSS وJavaScript وWebAssembly، مع دعم كامل للعربية وRTL/LTR وثلاث لغات أو أكثر — بدون إطارات ثقيلة.
 
-I build fast, multilingual websites from scratch: shipping-rate calculators, parcel tracking pages and in-browser tools, with full RTL/LTR support and no heavy frameworks.
-
-- 🚚 مواقع شركات ووسطاء الشحن (محلي، دولي، مبرّد، ومسار السودان)
-- 🌍 واجهات متعددة اللغات: عربي، إنجليزي، أردو، هندي، مع تبديل RTL/LTR
-- ⚡ أداء عالي: JavaScript بدون تبعيات، وحسابات بـ WebAssembly
-- 🤖 أدوات للذكاء الاصطناعي (منشئ أوامر Prompts)
+**English** — I build fast, multilingual front-ends for the Saudi market: Figma-driven UI, workflow automation, and in-browser tools (calculators, dashboards, AI prompt builders). Stack: HTML, CSS, JavaScript, WebAssembly, Git — full RTL/LTR, lightweight and dependency-free where it matters.
 
 ## المشاريع | Projects
 
-| المشروع | الوصف | التقنيات |
-|---|---|---|
-| 🚚 [**Track Ship**](https://github.com/omairggs-bit/trackship) | موقع شركة شحن: جاف ومبرّد داخل السعودية، دولي، ومسار للسودان، مع حاسبة أسعار وتتبّع وسلة | `JS` `WebAssembly` `i18n` |
-| 🧭 [**Masar**](https://github.com/omairggs-bit/masar) | منصة وساطة شحن تقارن أسعار DHL وFedEx وأرامكس وتاركو في مكان واحد | `JS` `WebAssembly` `i18n` |
-| 🦅 [**FalconShip**](https://github.com/omairggs-bit/falconship) | صفحة شركة لوجستية بحاسبة سعر وجدولة استلام، بثلاث لغات | `HTML` `CSS` `JS` |
-| ✨ [**Nidaa**](https://github.com/omairggs-bit/nidaa) | منصة عربية لبناء أوامر الذكاء الاصطناعي لـ ChatGPT وClaude وGemini وغيرها | `JS` `localStorage` |
+<a href="https://github.com/omairggs-bit/trackship"><img src="./assets/trackship.svg" width="400" alt="trackship" /></a>
+<a href="https://github.com/omairggs-bit/masar"><img src="./assets/masar.svg" width="400" alt="masar" /></a>
+<a href="https://github.com/omairggs-bit/falconship"><img src="./assets/falconship.svg" width="400" alt="falconship" /></a>
+<a href="https://github.com/omairggs-bit/nidaa"><img src="./assets/nidaa.svg" width="400" alt="nidaa" /></a>
+
+| المشروع | الوصف |
+|---|---|
+| [**trackship**](https://github.com/omairggs-bit/trackship) | موقع شركة شحن (جاف، مبرّد، دولي، مسار السودان): حاسبة أسعار، تتبّع، وسلة — JS + WebAssembly، 3 لغات. |
+| [**masar**](https://github.com/omairggs-bit/masar) | منصة وساطة تقارن أسعار DHL وFedEx وأرامكس وتاركو في مكان واحد — JS + WebAssembly. |
+| [**falconship**](https://github.com/omairggs-bit/falconship) | صفحة شركة: حاسبة سعر وجدولة استلام — HTML/CSS/JS، 3 لغات. |
+| [**nidaa**](https://github.com/omairggs-bit/nidaa) | منصة عربية لبناء أوامر الذكاء الاصطناعي لـ ChatGPT وClaude وGemini وغيرها. |
 
 ## التقنيات | Tech Stack
 
-<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode,figma" />
-
-![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+`HTML` · `CSS` · `JavaScript` · `WebAssembly` · `Git` · `Figma` · **AI tools & prompt workflows** · **Task automation**
 
 ## ما أقدمه | What I Offer
 
-- مواقع تعريفية لشركات الشحن والمتاجر، جاهزة للنشر
-- حاسبات أسعار وأدوات تفاعلية مخصصة
-- تعريب الواجهات ودعم RTL كامل
+- تصميم واجهات في Figma ثم تنفيذها كمواقع جاهزة للنشر  
+- أتمتة مهام متكررة (نماذج، تدفقات، أدوات داخل المتصفح)  
+- مواقع متاجر وتجارة إلكترونية متعددة اللغات مع RTL كامل  
+- تكامل أدوات الذكاء الاصطناعي في المنتج (منشئات أوامر، مساعدات للعميل)
 
 <div align="center">
 
-📫 للتعاون: **omairggs@gmail.com**
+<img src="./assets/footer.svg" width="100%" alt="Let's build something together"/>
 
 </div>

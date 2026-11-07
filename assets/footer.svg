@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" role="img" aria-label="Contact footer">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1D33"/>
+      <stop offset="100%" stop-color="#C1440E"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2842"/>
+      <stop offset="100%" stop-color="#162f4a"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FF9248" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="120" fill="url(#bg)"/>
+  <path d="M 40 84.0 Q 448.0 24.0 704.0 54.0 T 1220 42.0" fill="none" stroke="#FF9248" stroke-width="2" stroke-dasharray="8 10" opacity="0.25"/>
+  <path d="M 80 102.0 Q 640.0 66.0 960.0 90.0 T 1240 72.0" fill="none" stroke="#FF9248" stroke-width="2" stroke-dasharray="8 10" opacity="0.25"/>
+  <text x="640" y="48" text-anchor="middle" fill="#FFF2E6" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="600">Let&apos;s build something together</text>
+  <text x="640" y="82" text-anchor="middle" fill="#FF9248" font-family="Segoe UI,Arial,sans-serif" font-size="18">omairggs@gmail.com</text>
+  <rect x="540" y="96" width="200" height="2" rx="1" fill="#C1440E"/>
+</svg>
