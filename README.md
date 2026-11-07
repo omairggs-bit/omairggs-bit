@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d33,100:c1440e&height=180&section=header&text=Omair%20Qasim&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Front-End%20Developer%20%C2%B7%20Logistics%20%26%20E-commerce%20Web&descAlignY=58&descSize=16" width="100%"/>
 
-**مطوّر واجهات ويب، متخصص في مواقع الشحن والتجارة الإلكترونية للسوق السعودي**
+**مطوّر واجهات ويب، متخصص في المواقع والتجارة الإلكترونية للسوق السعودي**
 
 [![Email](https://img.shields.io/badge/omairggs@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:omairggs@gmail.com)
 ![Location](https://img.shields.io/badge/Saudi%20Arabia-0b1d33?style=flat-square&logo=googlemaps&logoColor=white)
@@ -12,12 +12,12 @@
 
 ## نبذة | About
 
-أبني مواقع ويب سريعة ومتعددة اللغات من الصفر، بدون إطارات ثقيلة: حاسبات أسعار شحن، صفحات تتبّع، وأدوات تفاعلية تشتغل كاملة في المتصفح.
+أبني مواقع ويب سريعة ومتعددة اللغات من الصفر، بدون إطارات ثقيلة: حاسبات أسعار، صفحات تتبّع، وأدوات تفاعلية تشتغل كاملة في المتصفح.
 
-I build fast, multilingual websites from scratch: shipping-rate calculators, parcel tracking pages and in-browser tools, with full RTL/LTR support and no heavy frameworks.
+I build fast, multilingual websites from scratch:-rate calculators, parcel tracking pages and in-browser tools, with full RTL/LTR support and no heavy frameworks.
 
-- 🚚 مواقع شركات ووسطاء الشحن (محلي، دولي، مبرّد، ومسار السودان)
-- 🌍 واجهات متعددة اللغات: عربي، إنجليزي، أردو، هندي، مع تبديل RTL/LTR
+- 🚚 مواقع الشركات
+- 🌍 واجهات متعددة اللغات: عربي، إنجليزي، مع تبديل RTL/LTR
 - ⚡ أداء عالي: JavaScript بدون تبعيات، وحسابات بـ WebAssembly
 - 🤖 أدوات للذكاء الاصطناعي (منشئ أوامر Prompts)
 
@@ -38,7 +38,7 @@ I build fast, multilingual websites from scratch: shipping-rate calculators, par
 
 ## ما أقدمه | What I Offer
 
-- مواقع تعريفية لشركات الشحن والمتاجر، جاهزة للنشر
+- مواقع تعريفية للشركات والمتاجر، جاهزة للنشر
 - حاسبات أسعار وأدوات تفاعلية مخصصة
 - تعريب الواجهات ودعم RTL كامل
 
