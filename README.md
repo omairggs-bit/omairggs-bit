@@ -1,112 +1,49 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:c1440e,100:ff9248&height=220&section=header&text=Omair%20Qasim&fontSize=52&fontColor=fff2e6&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Web%20Developer%20%7C%20مطوّر%20ويب%20متكامل&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d33,100:c1440e&height=180&section=header&text=Omair%20Qasim&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Front-End%20Developer%20%C2%B7%20Logistics%20%26%20E-commerce%20Web&descAlignY=58&descSize=16" width="100%"/>
 
-<br/>
+**مطوّر واجهات ويب، متخصص في مواقع الشحن والتجارة الإلكترونية للسوق السعودي**
 
-<img src="https://readme-typing-svg.demolab.com?font=Cairo&size=22&pause=1000&color=FF6B35&center=true&vCenter=true&width=650&lines=Frontend+%2B+Backend+Developer;مطوّر+واجهات+وخوادم؛+HTML+%7C+CSS+%7C+JS+%7C+React+%7C+Node.js;أبني+مواقع+وتطبيقات+ويب+من+الصفر+حتى+النشر" alt="Typing SVG" />
-
-<br/><br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=vercel&logoColor=black)](#)
+[![Email](https://img.shields.io/badge/omairggs@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:omairggs@gmail.com)
+![Location](https://img.shields.io/badge/Saudi%20Arabia-0b1d33?style=flat-square&logo=googlemaps&logoColor=white)
+![Languages](https://img.shields.io/badge/AR%20%C2%B7%20EN-c1440e?style=flat-square)
 
 </div>
 
----
+## نبذة | About
 
-### 🧭 نبذة عني | About Me
+أبني مواقع ويب سريعة ومتعددة اللغات من الصفر، بدون إطارات ثقيلة: حاسبات أسعار شحن، صفحات تتبّع، وأدوات تفاعلية تشتغل كاملة في المتصفح.
 
-```
-🔭 أعمل حاليًا على مشاريع ويب متكاملة (Frontend + Backend)
-🔭 Currently building full-stack web projects
+I build fast, multilingual websites from scratch: shipping-rate calculators, parcel tracking pages and in-browser tools, with full RTL/LTR support and no heavy frameworks.
 
-🌱 أتعلّم حاليًا: تطوير الـ Backend وربطه بقواعد البيانات
-🌱 Currently learning: Backend development & database integration
+- 🚚 مواقع شركات ووسطاء الشحن (محلي، دولي، مبرّد، ومسار السودان)
+- 🌍 واجهات متعددة اللغات: عربي، إنجليزي، أردو، هندي، مع تبديل RTL/LTR
+- ⚡ أداء عالي: JavaScript بدون تبعيات، وحسابات بـ WebAssembly
+- 🤖 أدوات للذكاء الاصطناعي (منشئ أوامر Prompts)
 
-💬 اسألني عن: HTML, CSS, JavaScript, React, Node.js
-💬 Ask me about: HTML, CSS, JavaScript, React, Node.js
-
-⚡ حقيقة ممتعة: أحب تحويل الأفكار لواجهات تفاعلية حية
-⚡ Fun fact: I love turning ideas into living, interactive interfaces
-```
-
----
-
-### 🛠️ التقنيات والأدوات | Tech Stack
-
-<div align="center">
-
-**Frontend**
-<br/>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap" />
-
-<br/><br/>
-
-**Backend & Database**
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,php" />
-
-<br/><br/>
-
-**Tools & Platforms**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,linux" />
-
-</div>
-
----
-
-### 📊 إحصائيات جيت هب | GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=omairggs-bit&show_icons=true&hide_border=true&count_private=true&bg_color=1a0e0a&title_color=ff6b35&icon_color=ff9248&text_color=ffd9b3" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omairggs-bit&layout=compact&hide_border=true&bg_color=1a0e0a&title_color=ff6b35&text_color=ffd9b3" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=omairggs-bit&hide_border=true&background=1a0e0a&border=ff6b35&ring=ff6b35&fire=ff4d4d&currStreakLabel=ffd9b3&sideLabels=ffd9b3&currStreakNum=ff9248&sideNums=ff9248&dates=c97a55" />
-
-</div>
-
----
-
-### 🎯 نظرة على مشاريعي | Featured Projects
-
-<div align="center">
+## المشاريع | Projects
 
 | المشروع | الوصف | التقنيات |
 |---|---|---|
-| 🚀 **اسم المشروع الأول** | وصف مختصر للمشروع وما يقدمه | `React` `Node.js` |
-| 🎨 **اسم المشروع الثاني** | وصف مختصر للمشروع وما يقدمه | `HTML` `CSS` `JS` |
-| 🛒 **اسم المشروع الثالث** | وصف مختصر للمشروع وما يقدمه | `Full-Stack` |
+| 🚚 [**Track Ship**](https://github.com/omairggs-bit/trackship) | موقع شركة شحن: جاف ومبرّد داخل السعودية، دولي، ومسار للسودان، مع حاسبة أسعار وتتبّع وسلة | `JS` `WebAssembly` `i18n` |
+| 🧭 [**Masar**](https://github.com/omairggs-bit/masar) | منصة وساطة شحن تقارن أسعار DHL وFedEx وأرامكس وتاركو في مكان واحد | `JS` `WebAssembly` `i18n` |
+| 🦅 [**FalconShip**](https://github.com/omairggs-bit/falconship) | صفحة شركة لوجستية بحاسبة سعر وجدولة استلام، بثلاث لغات | `HTML` `CSS` `JS` |
+| ✨ [**Nidaa**](https://github.com/omairggs-bit/nidaa) | منصة عربية لبناء أوامر الذكاء الاصطناعي لـ ChatGPT وClaude وGemini وغيرها | `JS` `localStorage` |
 
-</div>
+## التقنيات | Tech Stack
 
-> 💡 عدّل الجدول أعلاه بروابط مشاريعك الحقيقية — كل ما تحطه هنا يظهر بشكل احترافي لأي زائر لملفك.
+<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode,figma" />
 
----
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
 
-<div align="center">
+## ما أقدمه | What I Offer
 
-### 📈 نشاطي على جيت هب | Contribution Activity
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=omairggs-bit&hide_border=true&bg_color=1a0e0a&color=ffd9b3&line=ff6b35&point=ff4d4d&area_color=ff6b35&title_color=ff9248" width="100%"/>
-
-</div>
-
----
+- مواقع تعريفية لشركات الشحن والمتاجر، جاهزة للنشر
+- حاسبات أسعار وأدوات تفاعلية مخصصة
+- تعريب الواجهات ودعم RTL كامل
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=omairggs-bit&style=for-the-badge&color=ff6b35&label=زوار+الملف+%7C+Profile+Views" />
-
-<br/><br/>
-
-**"الشغف يبدأ بفكرة، وينتهي بسطر كود يشتغل 💻✨"**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9248,50:c1440e,100:2b0a0a&height=100&section=footer" width="100%"/>
+📫 للتعاون: **omairggs@gmail.com**
 
 </div>
