@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "skills": {
+    "heygen-avatar": {
+      "source": "heygen-com/skills",
+      "sourceType": "github",
+      "skillPath": "heygen-avatar/SKILL.md",
+      "computedHash": "8cee5d7b2e2533600c5777efd9e5d6462311fd2ce3173d624510195e49ba5bff"
+    },
+    "heygen-translate": {
+      "source": "heygen-com/skills",
+      "sourceType": "github",
+      "skillPath": "heygen-translate/SKILL.md",
+      "computedHash": "be09963d29c2cf3b5c3703521ab3e9b9bf23040bf9724f8e86f1a116a20ab57c"
+    },
+    "heygen-video": {
+      "source": "heygen-com/skills",
+      "sourceType": "github",
+      "skillPath": "heygen-video/SKILL.md",
+      "computedHash": "f5b17f95b70e90585938d114de37b57966a1db50dcbe37e326f297ed0df79c4c"
+    }
+  }
+}
